@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "WakeMate",
+    "slug": "wakemate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wakemate.app"
+    },
+    "android": {
+      "package": "com.wakemate.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#121212"
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow WakeMate to use your location to verify movement."
+        }
+      ]
+    ]
+  }
+}
