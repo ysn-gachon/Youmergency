@@ -1,14 +1,21 @@
-import 'react-native-gesture-handler';
-import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import AppNavigator from './src/navigation/AppNavigator';
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
+import RootNavigator from './src/navigation/RootNavigator';
+import { NEON_THEME } from './src/constants/theme';
 
 export default function App() {
   return (
-    <SafeAreaProvider>
+    <View style={styles.container}>
+      <RootNavigator />
       <StatusBar style="light" />
-      <AppNavigator />
-    </SafeAreaProvider>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: NEON_THEME.colors.background,
+  },
+});

@@ -25,6 +25,7 @@
           "locationAlwaysAndWhenInUsePermission": "Allow WakeMate to use your location to verify movement."
         }
       ]
-    ]
+    ],
+    "scheme": "wakemate"
   }
 }

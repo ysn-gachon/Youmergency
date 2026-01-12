@@ -1,13 +1,13 @@
 export const NEON_THEME = {
   colors: {
-    background: '#121212', // Deep Charcoal
-    surface: '#1E1E1E',    // Surface Grey
-    primary: '#BB86FC',    // Electric Purple
-    secondary: '#03DAC6',  // Neon Mint
-    error: '#CF6679',      // Hot Pink
+    background: '#121212',
+    surface: '#1E1E1E',
+    primary: '#BB86FC',
+    secondary: '#03DAC6',
+    error: '#CF6679',
     text: {
-      primary: '#FFFFFF',  // White High
-      secondary: '#B0B0B0',// White Medium
+      primary: '#FFFFFF',
+      secondary: '#B0B0B0',
     },
     border: '#2C2C2C',
   },
